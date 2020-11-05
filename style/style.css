@@ -94,7 +94,7 @@
   align-items: center; }
   .header .logo {
     margin: 0 auto;
-    background-image: url(img/logo.jpg);
+    background-image: url(../img/logo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 154px;
