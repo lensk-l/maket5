@@ -1,0 +1,311 @@
+.fixed {
+    overflow: hidden;
+    position: fixed;
+}
+
+
+
+// ---очень большие экраны 
+
+@media screen and (max-width: 1920px) {
+    .header {
+        justify-content: space-between;
+        margin: 0 auto;
+        .login {
+            width: 500px;
+        }
+        .logo {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    }
+}
+@media screen and (max-width: 1200px) { 
+    .header {
+        .last-column {
+            width: 278px;
+        }
+    }
+    .second {
+        .mini-nav {
+            margin-left: 50px;
+        }
+        .filter {
+            margin-right: 50px;
+        }
+    }
+}
+
+//--- монитор
+@media screen and (max-width: 1024px) {
+    .header {
+        .logo {
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+        .last-column {
+            width: 250px;
+        }
+    }
+    .second {
+        font-size: 10px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+        .mini-nav {
+            a {
+            margin-right: 10px;
+            }
+        }
+        .butt-block {
+            select, button {
+                width: 80px;
+                height: 30px;
+                padding: 5px;
+            }
+        }
+    }
+    .third {
+        .gallery {
+        grid-gap: 10px 3px;
+        }
+    }
+    
+}
+//--- планшет горизонт
+@media screen and (max-width: 900px) {
+    .menu-icon {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    .header .logo {
+        margin-left: 12em;
+    }
+    .second {
+        height: 100px;
+    }
+    .third {
+        .gallery {
+            padding-left: 15px;
+            padding-right: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            .item {
+                margin: 10px;
+            }
+        }
+    }
+
+}
+
+//--- планшет
+@media screen and (max-width: 768px) {
+    .header .logo {
+        margin-left: 8em;
+    }
+    .second {
+        height: 160px;
+    }
+    .third {
+        .gallery {
+            .item {
+                &-5 {}
+            }
+        }
+    }
+    .fifth{
+        .img-row {
+            img {
+                width: 20px;
+            };
+        }
+    }
+
+}
+//---мобильные 
+@media screen and (max-width: 550px) {
+    .header {
+        .last-column {
+            display: none;
+        }
+        .logo {
+            margin: 0 auto;
+        }
+    }
+    .first {
+        padding-bottom: 20px;
+        h1 {
+            font-size: 25px;
+        }
+        .first-line {
+            max-width: 200px;
+            flex-direction: column;
+            select {
+                margin-bottom: 10px;
+            }
+        }
+        .second-line {
+            max-width: 200px;
+            textarea {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .second {
+        justify-content: center;
+        font-size: 13px;
+        padding-bottom: 20px;
+        .mini-nav {
+            margin: 0;
+        }
+        .butt-block {
+            select {
+                margin-right: 5px;
+            }
+            button {
+                width: 100px;
+            }
+        }
+        .filter {
+            margin: 0;
+        };
+    }
+    .third {
+        .gallery {
+            .item{
+                &-5, &-6, &-11 {
+                    width: 300px;
+                    height: 350px;
+                    .icon{
+                        right: calc(300px - 23%);
+                    }
+                    .img {
+                        .name{
+                            span {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .fifth{
+        .img-row {
+            img {
+                display: none;
+            };
+        }
+        .realiti-block {
+            flex-direction: column;
+            .reality-item {
+                margin-bottom: 1em;
+            }
+        }
+    }
+    footer{
+        .subsc {
+            .wrap {
+                input {
+                    width: 300px;
+                }
+                button {
+                    right: calc(494px - 162%);
+                }
+            } 
+        }
+       
+    }
+
+}
+
+///// iphone 5
+@media screen and (max-width: 320px) {
+    .third {
+        .gallery {
+            .item{
+                &-5, &-6, &-11 {
+                    width: 220px;
+                    height: 380px;
+                    .icon{
+                        right: calc(220px - 30%);
+                    }
+                    .img {
+                        .name{
+                            padding-top: 80px;
+                            line-height: 15px;
+                            span {
+                                font-size: 10px;
+                                margin: 0;
+                            }
+                        }
+                    }
+                    .comment {
+                        h2 {
+                            margin-left: 0;
+                        }
+                        p {
+                            padding: 0;
+                            padding-right: 5px;
+                        }
+                    }
+                }
+            } 
+        }
+    }
+
+}
+
+
+
+//// ----бургер ----
+.open {
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start !important;
+    z-index: 1;
+    .logo {
+        margin-left: 60%;
+      padding-top: 40px;
+      margin-top: 30px !important;;
+    }
+    nav {
+      display: flex;
+      ul {
+        flex-direction: column;
+        li {
+          margin-top: 30px;
+        }
+      }
+    }
+    .last-column {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        .search {
+            margin-bottom: 10px;
+            width: 100%;
+            i { 
+                padding-top: 0px;
+            }
+        }
+        .login {
+            i { 
+                margin: 0;
+            }
+            align-items: center;
+            display: flow-root;
+            width: 100%;
+            text-align: center;
+        }
+    }
+  }
+
