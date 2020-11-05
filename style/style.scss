@@ -275,7 +275,7 @@ $orange: #f19e1f;
       }
     }
     .img {
-      background-image: url(img/pic-3.png);
+      background-image: url(../img/pic-3.png);
       background-position: center;
       height: 120px;
       border-color: $grin;
@@ -312,7 +312,7 @@ $orange: #f19e1f;
   .logo {
     margin: 0 auto;
     // margin-top: 15px;
-    background-image: url(img/logo.jpg);
+    background-image: url(../img/logo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 154px;
@@ -376,7 +376,7 @@ $orange: #f19e1f;
 //------ Первый блок----
 .first {
   padding-top: 10px;
-  background: url(img/min-pic.png), url(img/black.png), url(img/city1.png);
+  background: url(../img/min-pic.png), url(../img/black.png), url(../img/city1.png);
   background-size: cover;
   height: 450px;
   text-align: center;
@@ -597,7 +597,7 @@ $orange: #f19e1f;
   }
   .item-1 {
     .img {
-      background-image: url(img/pic-1.png);
+      background-image: url(../img/pic-1.png);
       border-color: $grin;
     }
     .icon {
@@ -615,7 +615,7 @@ $orange: #f19e1f;
       opacity: 0.8;
     }
     .img {
-      background-image: url(img/pic-2.png);
+      background-image: url(../img/pic-2.png);
       border-color: $orange;
     }
     .icon {
@@ -633,7 +633,7 @@ $orange: #f19e1f;
       opacity: 0.8;
     }
     .img {
-      background-image: url(img/pic-1.png);
+      background-image: url(../img/pic-1.png);
       border-color: $violet;
     }
     .icon {
@@ -647,7 +647,7 @@ $orange: #f19e1f;
   }
   .item-4 {
     .img {
-      background-image: url(img/pic-3.png);
+      background-image: url(../img/pic-3.png);
       border-color: $grin;
     }
     .icon {
@@ -667,7 +667,7 @@ $orange: #f19e1f;
     grid-column-start: 7; 
     grid-column-end: 13; 
     .img {
-      background-image: url(img/pic-4.png);
+      background-image: url(../img/pic-4.png);
       background-position: center;
       border-color:$orange;
     }
@@ -677,7 +677,7 @@ $orange: #f19e1f;
   }
   .item-7 {
     .img {
-      background-image: url(img/pic-1.png);
+      background-image: url(../img/pic-1.png);
       border-color: $grin;
     }
     .icon {
@@ -697,7 +697,7 @@ $orange: #f19e1f;
     grid-column-start: 4; 
     grid-column-end: 7; 
     .img {
-      background-image: url(img/pic-2.png);
+      background-image: url(../img/pic-2.png);
       border-color: $orange;
     }
     .icon {
@@ -715,7 +715,7 @@ $orange: #f19e1f;
     grid-column-start: 7; 
     grid-column-end: 10; 
     .img {
-      background-image: url(img/pic-1.png);
+      background-image: url(../img/pic-1.png);
       border-color: $violet;
     }
     .icon {
@@ -730,7 +730,7 @@ $orange: #f19e1f;
     grid-column-end: 13; 
    
     .img {
-      background-image: url(img/pic-3.png);
+      background-image: url(../img/pic-3.png);
       border-color: $grin;
     }
     .icon {
@@ -754,7 +754,7 @@ $orange: #f19e1f;
     grid-column-start: 7; 
     grid-column-end: 10; 
     .img {
-      background-image: url(img/pic-1.png);
+      background-image: url(../img/pic-1.png);
       border-color: $violet;
     }
     .icon {
@@ -768,7 +768,7 @@ $orange: #f19e1f;
     grid-column-start: 10; 
     grid-column-end: 13; 
     .img {
-      background-image: url(img/pic-3.png);
+      background-image: url(../img/pic-3.png);
       border-color: $grin;
     }
     .icon {
@@ -885,7 +885,7 @@ $orange: #f19e1f;
   }
 }
 footer{
-  background: url(img/black.png), url(img/city1.png);
+  background: url(../img/black.png), url(../img/city1.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 61px;

@@ -145,7 +145,7 @@
 
 .first {
   padding-top: 10px;
-  background: url(img/min-pic.png), url(img/black.png), url(img/city1.png);
+  background: url(../img/min-pic.png), url(../img/black.png), url(../img/city1.png);
   background-size: cover;
   height: 450px;
   text-align: center;
@@ -373,7 +373,7 @@
       grid-column-start: 1;
       grid-column-end: 4; }
       .third .gallery .item-1 .img {
-        background-image: url(img/pic-1.png);
+        background-image: url(../img/pic-1.png);
         border-color: #1baf5d; }
       .third .gallery .item-1 .icon {
         background-color: #1baf5d; }
@@ -386,7 +386,7 @@
         background-color: #f19e1f;
         opacity: 0.8; }
       .third .gallery .item-2 .img {
-        background-image: url(img/pic-2.png);
+        background-image: url(../img/pic-2.png);
         border-color: #f19e1f; }
       .third .gallery .item-2 .icon {
         background-color: #f19e1f; }
@@ -399,7 +399,7 @@
         background-color: #88499c;
         opacity: 0.8; }
       .third .gallery .item-3 .img {
-        background-image: url(img/pic-1.png);
+        background-image: url(../img/pic-1.png);
         border-color: #88499c; }
       .third .gallery .item-3 .icon {
         background-color: #88499c; }
@@ -409,7 +409,7 @@
       grid-column-start: 10;
       grid-column-end: 13; }
       .third .gallery .item-4 .img {
-        background-image: url(img/pic-3.png);
+        background-image: url(../img/pic-3.png);
         border-color: #1baf5d; }
       .third .gallery .item-4 .icon {
         background-color: #1baf5d; }
@@ -482,7 +482,7 @@
             border-radius: 50px;
             border: 3px solid #e2dee0; }
       .third .gallery .item-5 .img {
-        background-image: url(img/pic-3.png);
+        background-image: url(../img/pic-3.png);
         background-position: center;
         height: 120px;
         border-color: #1baf5d; }
@@ -559,7 +559,7 @@
             border-radius: 50px;
             border: 3px solid #e2dee0; }
       .third .gallery .item-6 .img {
-        background-image: url(img/pic-3.png);
+        background-image: url(../img/pic-3.png);
         background-position: center;
         height: 120px;
         border-color: #1baf5d; }
@@ -568,7 +568,7 @@
         top: 92px;
         background-color: #1baf5d; }
       .third .gallery .item-6 .img {
-        background-image: url(img/pic-4.png);
+        background-image: url(../img/pic-4.png);
         background-position: center;
         border-color: #f19e1f; }
       .third .gallery .item-6 .icon {
@@ -577,7 +577,7 @@
       grid-column-start: 1;
       grid-column-end: 4; }
       .third .gallery .item-7 .img {
-        background-image: url(img/pic-1.png);
+        background-image: url(../img/pic-1.png);
         border-color: #1baf5d; }
       .third .gallery .item-7 .icon {
         background-color: #1baf5d; }
@@ -590,7 +590,7 @@
         background-color: #f19e1f;
         opacity: 0.8; }
       .third .gallery .item-8 .img {
-        background-image: url(img/pic-2.png);
+        background-image: url(../img/pic-2.png);
         border-color: #f19e1f; }
       .third .gallery .item-8 .icon {
         background-color: #f19e1f; }
@@ -603,7 +603,7 @@
         background-color: #88499c;
         opacity: 0.8; }
       .third .gallery .item-9 .img {
-        background-image: url(img/pic-1.png);
+        background-image: url(../img/pic-1.png);
         border-color: #88499c; }
       .third .gallery .item-9 .icon {
         background-color: #88499c; }
@@ -613,7 +613,7 @@
       grid-column-start: 10;
       grid-column-end: 13; }
       .third .gallery .item-10 .img {
-        background-image: url(img/pic-3.png);
+        background-image: url(../img/pic-3.png);
         border-color: #1baf5d; }
       .third .gallery .item-10 .icon {
         background-color: #1baf5d; }
@@ -689,7 +689,7 @@
             border-radius: 50px;
             border: 3px solid #e2dee0; }
       .third .gallery .item-11 .img {
-        background-image: url(img/pic-3.png);
+        background-image: url(../img/pic-3.png);
         background-position: center;
         height: 120px;
         border-color: #1baf5d; }
@@ -704,7 +704,7 @@
         background-color: #88499c;
         opacity: 0.8; }
       .third .gallery .item-12 .img {
-        background-image: url(img/pic-1.png);
+        background-image: url(../img/pic-1.png);
         border-color: #88499c; }
       .third .gallery .item-12 .icon {
         background-color: #88499c; }
@@ -714,7 +714,7 @@
       grid-column-start: 10;
       grid-column-end: 13; }
       .third .gallery .item-13 .img {
-        background-image: url(img/pic-3.png);
+        background-image: url(../img/pic-3.png);
         border-color: #1baf5d; }
       .third .gallery .item-13 .icon {
         background-color: #1baf5d; }
@@ -811,7 +811,7 @@
           font-size: 30px; }
 
 footer {
-  background: url(img/black.png), url(img/city1.png);
+  background: url(../img/black.png), url(../img/city1.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 61px;
